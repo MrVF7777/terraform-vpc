@@ -1,7 +1,7 @@
 terraform {
     backend "s3" {
-        bucket = "jenkins-terraform-vladimir"
-        key = "terraform_vpc/us-east-1/class/dev/infrastructure.tfstate"
+        bucket = "my-jenkins-bucket7777"
+        key = "terra/vpc"
         region = "us-east-1"
     }
 }
